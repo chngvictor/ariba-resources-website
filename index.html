@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ms" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ariba Resources Sdn. Bhd. | Kontraktor G7 & Kejuruteraan Awam</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: { 800: '#1e3a8a', 900: '#172554' },
+            amber: { 600: '#d97706', 700: '#b45309' }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- HEADER / NAVBAR -->
+  <header class="bg-navy-900 text-white sticky top-0 z-40 shadow-md">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div>
+        <h1 class="text-xl font-bold tracking-wide">ARIBA RESOURCES SDN. BHD.</h1>
+        <p class="text-xs text-gray-300">No. Pendaftaran: 202401008772 (1554622-T) | CIDB G7[cite: 5, 10]</p>
+      </div>
+      <nav class="hidden md:flex space-x-6 text-sm font-medium">
+        <a href="#about" class="hover:text-amber-400 transition">Mengenai Kami</a>
+        <a href="#certifications" class="hover:text-amber-400 transition">Sijil & ISO</a>
+        <a href="#fleet" class="hover:text-amber-400 transition">Jentera & Aset</a>
+        <a href="#projects" class="hover:text-amber-400 transition">Projek</a>
+        <a href="#contact" class="hover:text-amber-400 transition">Hubungi Kami</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="bg-gradient-to-r from-navy-900 to-navy-800 text-white py-20">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <span class="bg-amber-600 text-white text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">Kontraktor Berdaftar CIDB G7</span>
+      <h2 class="text-4xl md:text-5xl font-extrabold mt-4 mb-6">Kecemerlangan dalam Pembinaan & Kejuruteraan Awam</h2>
+      <p class="text-lg text-gray-200 max-w-2xl mx-auto mb-8">Pakar dalam Sistem Binaan Berindustri (IBS) Aluminium Formwork[cite: 19], pembinaan perumahan skala besar[cite: 31], dan kerja-kerja infrastruktur kejuruteraan[cite: 5, 10].</p>
+      <a href="#contact" class="bg-amber-600 hover:bg-amber-700 text-white font-bold px-8 py-3 rounded-lg shadow transition">Hubungi Pasukan Kami</a>
+    </div>
+  </section>
+
+  <!-- ABOUT / MANAGEMENT SECTION -->
+  <section id="about" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h3 class="text-3xl font-bold text-navy-900 mb-4">Kepimpinan & Hala Tuju Korporat</h3>
+          <p class="text-gray-600 mb-4">
+            Di bawah kepimpinan Pengerusi kami, <strong>En. Azizul Bin Abdullah</strong>[cite: 3], Ariba Resources Sdn. Bhd. komited dalam menyediakan penyelesaian pembinaan yang berkualiti tinggi, inovatif, mampan, serta mematuhi piawaian industri yang ketat[cite: 3].
+          </p>
+          <ul class="space-y-2 text-sm text-gray-700 font-medium">
+            <li class="flex items-center">✓ Kontraktor CIDB G7 (B, CE & ME)[cite: 10]</li>
+            <li class="flex items-center">✓ Pengiktirafan Taraf Bumiputera (PKK)[cite: 12]</li>
+            <li class="flex items-center">✓ Pensijilan Kualiti ISO 9001:2015[cite: 16]</li>
+            <li class="flex items-center">✓ Penarafan CIDB SCORE 3-Bintang[cite: 15]</li>
+          </ul>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl border border-gray-200 shadow-sm">
+          <h4 class="font-bold text-lg text-navy-900 mb-2">Maklumat Operasi Syarikat</h4>
+          <p class="text-sm text-gray-600 mb-2"><strong>Alamat Berdaftar:</strong> 35-1, Jalan KLJ 5, Taman Kota Laksamana Jaya, 75200, Melaka[cite: 5]</p>
+          <p class="text-sm text-gray-600 mb-2"><strong>Alamat Operasi:</strong> No. 86-2nd Floor, Jalan MPK 2, Taman Bukit Kepayang, 70200 Seremban, Negeri Sembilan[cite: 5]</p>
+          <p class="text-sm text-gray-600 mb-2"><strong>Emel:</strong> aribaresources888@gmail.com[cite: 5]</p>
+          <p class="text-sm text-gray-600"><strong>Modal Berbayar:</strong> RM750,000.00[cite: 5]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS SECTION -->
+  <section id="certifications" class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h3 class="text-3xl font-bold text-navy-900">Pendaftaran & Sijil Rasmi</h3>
+        <p class="text-gray-600 mt-2">Dokumen akreditasi rasmi syarikat yang sah di peringkat nasional.</p>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+        
+        <!-- SSM -->
+        <div class="bg-white p-4 rounded-lg shadow border hover:shadow-md transition cursor-pointer" onclick="openModal('assets/certs/cert-ssm.png', 'Sijil SSM Syarikat')">
+          <img src="assets/certs/cert-ssm.png" alt="SSM Cert" class="w-full h-48 object-cover object-top rounded mb-3 border">
+          <h4 class="font-bold text-sm text-navy-900">SSM Pendaftaran</h4>
+          <p class="text-xs text-gray-500">No: 202401008772[cite: 9]</p>
+        </div>
+
+        <!-- CIDB G7 -->
+        <div class="bg-white p-4 rounded-lg shadow border hover:shadow-md transition cursor-pointer" onclick="openModal('assets/certs/cert-cidb-spkk-g7.png', 'Sijil CIDB G7 SPKK')">
+          <img src="assets/certs/cert-cidb-spkk-g7.png" alt="CIDB G7 Cert" class="w-full h-48 object-cover object-top rounded mb-3 border">
+          <h4 class="font-bold text-sm text-navy-900">CIDB SPKK G7</h4>
+          <p class="text-xs text-gray-500">Kategori B, CE, ME[cite: 10]</p>
+        </div>
+
+        <!-- ISO 9001 -->
+        <div class="bg-white p-4 rounded-lg shadow border hover:shadow-md transition cursor-pointer" onclick="openModal('assets/certs/cert-iso-9001-2015.png', 'Sijil ISO 9001:2015')">
+          <img src="assets/certs/cert-iso-9001-2015.png" alt="ISO Cert" class="w-full h-48 object-cover object-top rounded mb-3 border">
+          <h4 class="font-bold text-sm text-navy-900">ISO 9001:2015</h4>
+          <p class="text-xs text-gray-500">Quality Management[cite: 16]</p>
+        </div>
+
+        <!-- MOF -->
+        <div class="bg-white p-4 rounded-lg shadow border hover:shadow-md transition cursor-pointer" onclick="openModal('assets/certs/cert-mof.png', 'Sijil MOF')">
+          <img src="assets/certs/cert-mof.png" alt="MOF Cert" class="w-full h-48 object-cover object-top rounded mb-3 border">
+          <h4 class="font-bold text-sm text-navy-900">Kementerian Kewangan</h4>
+          <p class="text-xs text-gray-500">Perolehan Kerajaan[cite: 13, 14]</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FLEET & ASSETS SECTION -->
+  <section id="fleet" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h3 class="text-3xl font-bold text-navy-900">Aset Jentera & Jati Diri</h3>
+        <p class="text-gray-600 mt-2">Kelengkapan jentera berat milik penuh dan tenaga kerja mahir berdedikasi.</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <div class="bg-gray-50 rounded-lg overflow-hidden shadow border">
+          <img src="assets/extracted_photos/page_20_img_1.jpeg" alt="Excavators" class="w-full h-56 object-cover">
+          <div class="p-6">
+            <span class="bg-amber-100 text-amber-800 text-xs font-semibold px-2.5 py-1 rounded">20 Unit[cite: 23]</span>
+            <h4 class="text-lg font-bold text-navy-900 mt-2">Jengkaut (Excavator)</h4>
+            <p class="text-sm text-gray-600 mt-1">Jentera penggalian berat jenama Kobelco & Hitachi untuk kerja tanah dan infrastruktur[cite: 23, 24].</p>
+          </div>
+        </div>
+
+        <div class="bg-gray-50 rounded-lg overflow-hidden shadow border">
+          <img src="assets/extracted_photos/page_22_img_1.jpeg" alt="Sand Pumps" class="w-full h-56 object-cover">
+          <div class="p-6">
+            <span class="bg-amber-100 text-amber-800 text-xs font-semibold px-2.5 py-1 rounded">3 Set[cite: 23]</span>
+            <h4 class="text-lg font-bold text-navy-900 mt-2">Pam Pasir (Sand Pump)</h4>
+            <p class="text-sm text-gray-600 mt-1">Pontun pengorekan dan pengepaman pasir sungai di Kota Tinggi, Johor[cite: 23, 26].</p>
+          </div>
+        </div>
+
+        <div class="bg-gray-50 rounded-lg overflow-hidden shadow border">
+          <img src="assets/extracted_photos/page_21_img_1.jpeg" alt="Compactor" class="w-full h-56 object-cover">
+          <div class="p-6">
+            <span class="bg-amber-100 text-amber-800 text-xs font-semibold px-2.5 py-1 rounded">2 Unit[cite: 23]</span>
+            <h4 class="text-lg font-bold text-navy-900 mt-2">Compactor & Jentera Jalan</h4>
+            <p class="text-sm text-gray-600 mt-1">Pengolahan pemampatan tanah asas pembinaan tapak perumahan[cite: 23, 25].</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h3 class="text-3xl font-bold text-navy-900">Projek Utama Semasa</h3>
+        <p class="text-gray-600 mt-2">Pelaksanaan projek perumahan bernilai tinggi menggunakan teknologi IBS[cite: 19, 31].</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        
+        <div class="bg-white rounded-lg overflow-hidden shadow border">
+          <img src="assets/extracted_photos/page_27_img_1.jpeg" alt="Lanchang Project" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-1 rounded">Nilai: RM85 Juta[cite: 31]</span>
+            <h4 class="text-xl font-bold text-navy-900 mt-2">350 Unit Rumah Teres Lanchang, Pahang</h4>
+            <p class="text-sm text-gray-600 mt-2">Cadangan reka bentuk, bina dan siapkan rumah teres setingkat serta infrastruktur lengkap Program Rumah Malaysia (Disewa)[cite: 31].</p>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg overflow-hidden shadow border">
+          <img src="assets/extracted_photos/page_42_img_1.jpeg" alt="Kota Tinggi Project" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-1 rounded">Nilai: RM5 Juta[cite: 31]</span>
+            <h4 class="text-xl font-bold text-navy-900 mt-2">Kerja Pengorekan Pasir Kota Tinggi, Johor</h4>
+            <p class="text-sm text-gray-600 mt-2">Kerja-kerja mengeluarkan, mengambil dan mengangkut pasir tanah sungai secara sistematik dan berlesen[cite: 31, 42].</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / INQUIRY FORM -->
+  <section id="contact" class="py-16 bg-white">
+    <div class="max-w-3xl mx-auto px-4">
+      <div class="text-center mb-10">
+        <h3 class="text-3xl font-bold text-navy-900">Hubungi Kami</h3>
+        <p class="text-gray-600 mt-2">Sila hantarkan pertanyaan atau usahasama perniagaan kepada pihak kami.</p>
+      </div>
+      <form class="space-y-4 bg-gray-50 p-8 rounded-xl border shadow-sm" onsubmit="event.preventDefault(); alert('Terima kasih! Mesej anda telah dihantar.');">
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Nama Penuh</label>
+          <input type="text" required class="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-navy-800 outline-none">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Emel / Nombor Telefon</label>
+          <input type="text" required class="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-navy-800 outline-none">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700">Mesej / Pertanyaan</label>
+          <textarea rows="4" required class="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-navy-800 outline-none"></textarea>
+        </div>
+        <button type="submit" class="w-full bg-navy-900 hover:bg-navy-800 text-white font-bold py-3 rounded-lg transition">Hantar Mesej</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-navy-900 text-white py-8 text-center text-sm">
+    <p>&copy; 2026 Ariba Resources Sdn. Bhd. (202401008772). Hak Cipta Terpelihara.</p>
+  </footer>
+
+  <!-- CERTIFICATE LIGHTBOX MODAL -->
+  <div id="certModal" class="fixed inset-0 bg-black/80 hidden items-center justify-center z-50 p-4" onclick="closeModal()">
+    <div class="relative max-w-3xl w-full bg-white p-4 rounded-lg" onclick="event.stopPropagation()">
+      <button onclick="closeModal()" class="absolute top-2 right-4 text-2xl font-bold text-gray-700">&times;</button>
+      <h4 id="modalTitle" class="font-bold text-lg mb-3 text-navy-900"></h4>
+      <img id="modalImg" src="" alt="Certificate" class="max-h-[75vh] mx-auto object-contain">
+    </div>
+  </div>
+
+  <script>
+    function openModal(src, title) {
+      document.getElementById('modalImg').src = src;
+      document.getElementById('modalTitle').innerText = title;
+      document.getElementById('certModal').classList.remove('hidden');
+      document.getElementById('certModal').classList.add('flex');
+    }
+    function closeModal() {
+      document.getElementById('certModal').classList.add('hidden');
+      document.getElementById('certModal').classList.remove('flex');
+    }
+  </script>
+</body>
+</html>
